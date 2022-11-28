@@ -95,3 +95,98 @@ nav a:hover{
     color: orangered;
 }
 /* NavBar style ends here */
+/* Container starts here */
+
+.container{
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: beige;
+}
+.row{
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    letter-spacing: 0.7px;
+}
+.row div{
+    display: inline-block;
+}
+.card-img{
+    width: 250px;
+    width: 25%;
+}
+.row img{
+    width: 250px;
+}
+.row h3{
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.row p{
+    opacity: 0.9;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.card-heading{
+    width: 52%;
+    padding: 20px;
+}
+.card-footer{
+    width: 20%;
+    text-align: center;
+}
+.card-heading span{
+    color: blue;
+}
+.card-heading span:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.card-footer div{
+    display: block;
+    margin: 20px;
+}
+.card-footer div{
+    padding: 10px 0;
+}
+.card-footer button{
+    padding: 6px 8px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: rgb(60, 60, 241);
+}
+#inputValue{
+    width: 60px;
+    height: 40px;
+    outline: none;
+    font-size: 19px;
+    border-radius: 1px solid gray;
+    text-align: center;
+}
+#monitor-price{
+    color: rgb(60, 60, 241);
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card div{
+    display: flex;
+}
+.card h2{
+    font-weight: 500;
+    padding: 0 30px;
+}
+.card i{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Container ends here */
