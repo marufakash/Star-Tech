@@ -99,9 +99,9 @@
             </div>
             <div class="card-footer">
                 <div>
-                    <button id="monitor-increment">+</button>
-                    <input type="text" value="1" id="inputValue">
-                    <button id="monitor-decrement">-</button>
+                    <button id="monitor-decrement" onclick="handleProductChange(false, 'monitor')">-</button>
+                    <input type="text" value="1" class="inputValue" id="monitor-value">
+                    <button id="monitor-increment" onclick="handleProductChange(true, 'monitor')">+</button>
                 </div>
                 <div>
                     <h4>Price : <span id="monitor-price">$627</span></h4>
@@ -119,9 +119,9 @@
             </div>
             <div class="card-footer">
                 <div>
-                    <button id="mouse-increment">+</button>
-                    <input type="text" value="1" id="inputValue">
-                    <button id="mouse-decrement">-</button>
+                    <button id="mouse-decrement" onclick="handleProductChange(false, 'mouse')">-</button>
+                    <input type="text" value="1" class="inputValue" id="mouse-value">
+                    <button id="mouse-increment" onclick="handleProductChange(true, 'mouse')">+</button>
                 </div>
                 <div>
                     <h4>Price : <span id="mouse-price">$99</span></h4>
@@ -138,9 +138,9 @@
             </div>
             <div class="card-footer">
                 <div>
-                    <button id="headphone-increment">+</button>
-                    <input type="text" value="1" id="inputValue">
-                    <button id="headphone-decrement">-</button>
+                    <button id="headphone-decrement" onclick="handleProductChange(false, 'headphone')">-</button>
+                    <input type="text" value="1" class="inputValue" id="headphone-value">
+                    <button id="headphone-increment" onclick="handleProductChange(true, 'headphone')">+</button>
                 </div>
                 <div>
                     <h4>Price : <span id="headphone-price">$67</span></h4>
